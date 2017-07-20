@@ -30,25 +30,33 @@
 			</p>
 
 			<p>
-				After receiving a number of applications for a position that was recently posted, he must narrow down the
+				While he does most of his core work and typically researches applicants from his windows 10 enterprise
+				computer at his office,	he will sometimes examine the applications from his home iMac to spend more time
+				investigating them; as he can be quite busy with his other tasks, he likes to give a more thorough
+				examination when he is able (which isn't all of the time).  When he isn't at one of his desktops, he always
+				has his Google Pixel at his side and ready to get things done.
+			</p>
+
+			<p>
+				Eric's primary goal with this and all other portfolio websites he visits for potential new hires is both
+				to get to know a little about the person before they meet during an interview and to examine the quality
+				of their work to determine if they are even worth interviewing.
+			</p>
+
+		<h1>Use Case</h1>
+			<p>
+				After receiving a number of applications for a position that was recently posted, Eric must narrow down the
 				field a little.  He initially scans through the resumés and separates them into two piles: qualified and
 				unqualified.  From there, he takes a closer look at the qualified applicants and flags any that stand out
 				.  Among them is my resumé.
 			</p>
-
-			<p>
-				While he usually will research applicants from his windows 10 enterprise computer at work, he will
-				sometimes examine the applications from his home iMac to spend more time investigating them; as he can be
-				quite busy with his other work, he likes to give a more thorough examination when he is able (which isn't
-				all the time).When he isn't at one of his desktops, he always has his Google Pixel at his side and ready
-				to get tasks done.
-			</p>
-
-			<p>
 				Even with his initial preparation, he still has double-digit applicants that seem qualified for the job,
-				and time is still at a premium.  He wants to be able to look at each applicants' portfolio and
-				quickly assess whether they seem worth bringing in for an interview or if it would be a waste of
-				everyone's time.
+				and time is still at a premium.  He has asked each of the applicants that didn't alredy include a
+				portofolio with their resumé to e-mail it to him.  In the meantime, he wants to	be able to look at each
+				applicants' portfolio that he does currently have access to and quickly assess whether they seem worth
+				bringing in for an interview or if it would be a waste of everyone's time.
+			<p>
+
 			</p>
 	</body>
 </html>
