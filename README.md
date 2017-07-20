@@ -1,2 +1,2 @@
 # alexander-dubois
-A personal portfolio website for myself, Alex
+A personal portfolio website for myself, Alex.
