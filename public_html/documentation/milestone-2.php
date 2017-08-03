@@ -15,8 +15,8 @@
 		</p>
 
 		<h1>Wireframes</h1>
-		<span><img src="/images/wireframe-mobile.png" alt="Mobile Wireframe" /></span>
-		<span><img src="/images/wireframe-desktop.png" alt="Desktop Wireframe" /></span>
+		<span><img src="images/wireframe-mobile.png" alt="Mobile Wireframe" /></span>
+		<span><img src="images/wireframe-desktop.png" alt="Desktop Wireframe" /></span>
 
 	</body>
 </html>
