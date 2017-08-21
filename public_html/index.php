@@ -35,7 +35,11 @@
 		</section>
 
 		<section class="section-contact-form">
-
+			<label for="contact-name">Your name</label>
+			<div class="input-group input-group-lg">
+				<span class="input-group-addon" id="contact-name">Name</span>
+				<input type="text" class="form-control" placeholder="What should I call you?" aria-label="Your name"
+			</div>
 		</section>
 
 		<!-- Optional JavaScript -->
