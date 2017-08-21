@@ -15,7 +15,28 @@
 		<title>Alexander DuBois</title>
 	</head>
 	<body>
-		<h1>Hello, world!</h1>
+		<section class="section-main">
+			<i class="fa fa-caret-up" aria-hidden="true"></i>
+			<i class="fa fa-caret-right" aria-hidden="true"></i>
+			<i class="fa fa-caret-down" aria-hidden="true"></i>
+			<i class="fa fa-caret-left" aria-hidden="true"></i>
+		</section>
+
+		<section class="section-about-me">
+
+		</section>
+
+		<section class="section-projects">
+
+		</section>
+
+		<section class="section-resume">
+
+		</section>
+
+		<section class="section-contact-form">
+
+		</section>
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
