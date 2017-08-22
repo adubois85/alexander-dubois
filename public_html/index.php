@@ -11,6 +11,9 @@
 		<!-- Font Awesome -->
 		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
+		<!-- Custom CSS -->
+		<link type="text/css" href="css/style.css" rel="stylesheet" />
+
 
 		<title>Alexander DuBois</title>
 	</head>
@@ -38,7 +41,27 @@
 			<label for="contact-name">Your name</label>
 			<div class="input-group input-group-lg">
 				<span class="input-group-addon" id="contact-name">Name</span>
-				<input type="text" class="form-control" placeholder="What should I call you?" aria-label="Your name"
+				<input type="text" class="form-control" placeholder="What should I call you?" aria-label="Your name" />
+			</div>
+
+			<label for="contact-email">Your email</label>
+			<div class="input-group">
+				<span class="input-group-addon" id="contact-email">Email</span>
+				<input type="text" class="form-control" placeholder="Where can I reach you?" aria-label="Your email
+				address" />
+			</div>
+
+			<label for="contact-subject">Email subject</label>
+			<div class="input-group">
+				<span class="input-group-addon" id="contact-subject">Subject</span>
+				<input type="text" class="form-control" placeholder="Why are you contacting me today?" aria-label="Email
+				subject line" />
+			</div>
+
+			<label for="contact-body">Email body</label>
+			<div class="input-group">
+				<span class="input-group-addon" id="contact-body">Body</span>
+				<input type="text" class="inputfield" placeholder="What's on your mind? (4000 characters max)" aria-label="Email body" />
 			</div>
 		</section>
 
