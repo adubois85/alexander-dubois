@@ -1,0 +1,9 @@
+body {
+	background: #202032;
+	color: #E1E1E1;
+}
+
+.fa-caret-up, .fa-caret-right, .fa-caret-down, .fa-caret-left {
+	font-size: 10em;
+	color: #E1E1E1;
+}
