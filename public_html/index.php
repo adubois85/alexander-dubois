@@ -61,7 +61,8 @@
 			<label for="contact-body">Email body</label>
 			<div class="input-group">
 				<span class="input-group-addon" id="contact-body">Body</span>
-				<input type="text" class="inputfield" placeholder="What's on your mind? (4000 characters max)" aria-label="Email body" />
+				<textarea class="form-control"  rows=6 placeholder="What's on your mind? (4000 characters max)"
+						 aria-label="Email body"></textarea>
 			</div>
 		</section>
 
