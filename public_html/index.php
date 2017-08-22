@@ -20,10 +20,19 @@
 	<body>
 		<!-- This is the main section; it acts as a navigation hub for the other sections -->
 		<section class="section-main">
-			<i class="fa fa-caret-up" aria-hidden="true"></i>
-			<i class="fa fa-caret-right" aria-hidden="true"></i>
-			<i class="fa fa-caret-down" aria-hidden="true"></i>
-			<i class="fa fa-caret-left" aria-hidden="true"></i>
+			<div class="container d-flex">
+				<div class="row justify-content-center">
+					<i class="fa fa-caret-up" aria-hidden="true"></i>
+				</div>
+				<div class="row justify-content-around">
+					<i class="fa fa-caret-left" aria-hidden="true"></i>
+					<p>This is my webpage.  Click on the arrows to navigate.</p>
+					<i class="fa fa-caret-right" aria-hidden="true"></i>
+				</div>
+				<div class="row justify-content-cneter">
+					<i class="fa fa-caret-down" aria-hidden="true"></i>
+				</div>
+			</div>
 		</section>
 
 		<!-- This section is a short autobiographical blurb -->
@@ -33,7 +42,9 @@
 
 		<!-- This section is a showcase of other projects I've worked on -->
 		<section class="section-projects">
+			<div class="container">
 
+			</div>
 		</section>
 
 
