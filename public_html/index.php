@@ -40,20 +40,21 @@
 		<section class="section-contact-form">
 			<label for="contact-name">Your name</label>
 			<div class="input-group input-group-lg">
-				<span class="input-group-addon" id="contact-name">Name</span>
+				<span class="input-group-addon" id="contact-name"><i class="fa fa-user" aria-hidden="true"></i></span>
 				<input type="text" class="form-control" placeholder="What should I call you?" aria-label="Your name" />
 			</div>
 
 			<label for="contact-email">Your email</label>
 			<div class="input-group">
-				<span class="input-group-addon" id="contact-email">Email</span>
+				<span class="input-group-addon" id="contact-email"><i class="fa fa-envelope" aria-hidden="true"></i></span>
 				<input type="text" class="form-control" placeholder="Where can I reach you?" aria-label="Your email
 				address" />
 			</div>
 
 			<label for="contact-subject">Email subject</label>
 			<div class="input-group">
-				<span class="input-group-addon" id="contact-subject">Subject</span>
+				<span class="input-group-addon" id="contact-subject"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+</span>
 				<input type="text" class="form-control" placeholder="Why are you contacting me today?" aria-label="Email
 				subject line" />
 			</div>
