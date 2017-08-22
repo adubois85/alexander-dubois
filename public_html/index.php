@@ -19,21 +19,41 @@
 	</head>
 	<body>
 		<!-- This is the main section; it acts as a navigation hub for the other sections -->
-		<section class="section-main">
-			<div class="container d-flex">
-				<div class="row justify-content-center">
-					<i class="fa fa-caret-up" aria-hidden="true"></i>
-				</div>
-				<div class="row justify-content-around">
-					<i class="fa fa-caret-left" aria-hidden="true"></i>
-					<p>This is my webpage.  Click on the arrows to navigate.</p>
-					<i class="fa fa-caret-right" aria-hidden="true"></i>
-				</div>
-				<div class="row justify-content-cneter">
-					<i class="fa fa-caret-down" aria-hidden="true"></i>
-				</div>
-			</div>
-		</section>
+<!--		<section class="section-main">-->
+<!--			<div class="container d-flex">-->
+<!--				<div class="row justify-content-center">-->
+<!--					<i class="fa fa-caret-up" aria-hidden="true"></i>-->
+<!--				</div>-->
+<!--				<div class="row justify-content-around">-->
+<!--					<i class="fa fa-caret-left" aria-hidden="true"></i>-->
+<!--					<p>This is my webpage.  Click on the arrows to navigate.</p>-->
+<!--					<i class="fa fa-caret-right" aria-hidden="true"></i>-->
+<!--				</div>-->
+<!--				<div class="row justify-content-cneter">-->
+<!--					<i class="fa fa-caret-down" aria-hidden="true"></i>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</section>-->
+
+
+
+				<section class="section-main">
+					<div class="container">
+						<div class="row justify-content-center">
+							<i class="fa fa-caret-up align-self-start" aria-hidden="true"></i>
+						</div>
+						<div class="row justify-content-center">
+							<i class="fa fa-caret-left col-xs-4 col-md-2" aria-hidden="true"></i>
+							<p class="col-xs-4 col-md-2 align-self-center" >This is my webpage.  Click on the arrows to
+								navigate.</p>
+							<i class="fa fa-caret-right col-xs-4 col-md-2" aria-hidden="true"></i>
+						</div>
+						<div class="row justify-content-center">
+							<i class="fa fa-caret-down" aria-hidden="true"></i>
+						</div>
+					</div>
+				</section>
+
 
 		<!-- This section is a short autobiographical blurb -->
 		<section class="section-about-me">
