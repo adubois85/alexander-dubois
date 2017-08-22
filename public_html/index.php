@@ -18,6 +18,7 @@
 		<title>Alexander DuBois</title>
 	</head>
 	<body>
+		<!-- This is the main section; it acts as a navigation hub for the other sections -->
 		<section class="section-main">
 			<i class="fa fa-caret-up" aria-hidden="true"></i>
 			<i class="fa fa-caret-right" aria-hidden="true"></i>
@@ -25,18 +26,23 @@
 			<i class="fa fa-caret-left" aria-hidden="true"></i>
 		</section>
 
+		<!-- This section is a short autobiographical blurb -->
 		<section class="section-about-me">
 
 		</section>
 
+		<!-- This section is a showcase of other projects I've worked on -->
 		<section class="section-projects">
 
 		</section>
 
+
+		<!-- This section is for my resumé -->
 		<section class="section-resume">
 
 		</section>
 
+		<!-- This section is a secured form for contacting me -->
 		<section class="section-contact-form">
 			<label for="contact-name">Your name</label>
 			<div class="input-group input-group-lg">
@@ -64,6 +70,8 @@
 				<textarea class="form-control"  id="contact-body" rows=6 placeholder="What's on your mind? (4000 characters max)"
 						 aria-label="Email body"></textarea>
 			</div>
+
+			<button class="btn btn-primary" type="submit">Submit</button>
 		</section>
 
 		<!-- Optional JavaScript -->
