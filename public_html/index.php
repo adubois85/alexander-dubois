@@ -40,28 +40,36 @@
 //				document.getElementsByClassName("section-main");
 //			}
 
-			function a(){
-				this.classList.toggle('hidden');
+
+			function toggleTop() {
+				alert("hello");
 			}
-			document.querySelector('#container').addEventListener('mouseclick', a );
+			function a(){
+				this.classList.toggle('hidden');}
+				document.querySelector('#container').addEventListener('mouseclick', a );
+			}
 		</script>
 
 
 				<section class="section-main">
 					<div class="container">
-						<div class="row justify-content-center">
+						<div class="row justify-content-center p-0">
 							<button type="button" class="btn btn-link" id="up-button">
-								<i class="fa fa-caret-up align-self-start" aria-hidden="true"></i>
+								<i class="fa fa-caret-up align-self-start border pt-0" onclick="toggleTop()"
+									aria-hidden="true"></i>
 							</button>
+							<a class="btn btn-default border fa fa-caret-up d-inline" href="#"></a>
 						</div>
+					</div>
+					<div class="container">
 						<div class="row justify-content-center">
-							<i class="fa fa-caret-left col-xs-4 col-md-2" aria-hidden="true"></i>
-							<p class="col-xs-4 col-md-2 align-self-center" >This is my webpage.  Click on the arrows to
+							<i class="fa fa-caret-left col-xs-4 col-md-1 border p-0" aria-hidden="true"></i>
+							<p class="col-xs-4 col-md-2 align-self-center border" >This is my webpage.  Click on the arrows to
 								navigate.</p>
-							<i class="fa fa-caret-right col-xs-4 col-md-2" aria-hidden="true"></i>
+							<i class="fa fa-caret-right col-xs-4 col-md-2 border" aria-hidden="true"></i>
 						</div>
 						<div class="row justify-content-center">
-							<i class="fa fa-caret-down" aria-hidden="true"></i>
+							<i class="fa fa-caret-down border" aria-hidden="true"></i>
 						</div>
 					</div>
 				</section>
