@@ -3,6 +3,10 @@ body {
 	color: #E1E1E1;
 }
 
+.hidden {
+	display: none;
+}
+
 .fa-caret-up, .fa-caret-right, .fa-caret-down, .fa-caret-left {
 	font-size: 10em;
 	color: #E1E1E1;
