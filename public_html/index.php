@@ -35,12 +35,24 @@
 <!--			</div>-->
 <!--		</section>-->
 
+		<script>
+//			function toggleTop() {
+//				document.getElementsByClassName("section-main");
+//			}
+
+			function a(){
+				this.classList.toggle('hidden');
+			}
+			document.querySelector('#container').addEventListener('mouseclick', a );
+		</script>
 
 
 				<section class="section-main">
 					<div class="container">
 						<div class="row justify-content-center">
-							<i class="fa fa-caret-up align-self-start" aria-hidden="true"></i>
+							<button type="button" class="btn btn-link" id="up-button">
+								<i class="fa fa-caret-up align-self-start" aria-hidden="true"></i>
+							</button>
 						</div>
 						<div class="row justify-content-center">
 							<i class="fa fa-caret-left col-xs-4 col-md-2" aria-hidden="true"></i>
@@ -57,6 +69,7 @@
 
 		<!-- This section is a short autobiographical blurb -->
 		<section class="section-about-me hidden">
+			<p>Test placeholder text.</p>
 
 		</section>
 
