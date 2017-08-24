@@ -18,45 +18,23 @@
 		<title>Alexander DuBois</title>
 	</head>
 	<body>
-		<!-- This is the main section; it acts as a navigation hub for the other sections -->
-<!--		<section class="section-main">-->
-<!--			<div class="container d-flex">-->
-<!--				<div class="row justify-content-center">-->
-<!--					<i class="fa fa-caret-up" aria-hidden="true"></i>-->
-<!--				</div>-->
-<!--				<div class="row justify-content-around">-->
-<!--					<i class="fa fa-caret-left" aria-hidden="true"></i>-->
-<!--					<p>This is my webpage.  Click on the arrows to navigate.</p>-->
-<!--					<i class="fa fa-caret-right" aria-hidden="true"></i>-->
-<!--				</div>-->
-<!--				<div class="row justify-content-cneter">-->
-<!--					<i class="fa fa-caret-down" aria-hidden="true"></i>-->
-<!--				</div>-->
-<!--			</div>-->
-<!--		</section>-->
+<!--		 This is the main section; it acts as a navigation hub for the other sections -->
+		<section class="section-main">
+			<div class="container">
+				<div class="row justify-content-center">
+					<a class="btn btn-default border fa fa-caret-up d-inline" href="#about-me"></a>
+				</div>
+				<div class="row justify-content-around">
+					<a class="btn btn-default border fa fa-caret-left d-inline" href="#"></a>
+					<p class="border">This is my webpage.  Click on the arrows to navigate.</p>
+					<a class="btn btn-default border fa fa-caret-right d-inline" href="#"></a>
+				</div>
+				<div class="row justify-content-cneter">
+					<a class="btn btn-default border fa fa-caret-down d-inline" href="#"></a>
+				</div>
+			</div>
+		</section>
 
-				<section class="section-main">
-					<div class="container">
-						<div class="row justify-content-center p-0">
-<!--<!--							<button type="button" class="btn btn-link" id="up-button">-->
-<!--<!--								<i class="fa fa-caret-up align-self-start border pt-0" onclick="alertTest()"-->
-<!--<!--									aria-hidden="true"></i>-->
-<!--							</button>-->
-							<a class="btn btn-default border fa fa-caret-up d-inline" href="#"></a>
-						</div>
-					</div>
-					<div class="container">
-						<div class="row justify-content-center">
-							<i class="fa fa-caret-left col-xs-4 col-md-1 border p-0" aria-hidden="true"></i>
-							<p class="col-xs-4 col-md-2 align-self-center border" >This is my webpage.  Click on the arrows to
-								navigate.</p>
-							<i class="fa fa-caret-right col-xs-4 col-md-2 border" aria-hidden="true"></i>
-						</div>
-						<div class="row justify-content-center">
-							<i class="fa fa-caret-down border" aria-hidden="true"></i>
-						</div>
-					</div>
-				</section>
 
 
 		<!-- This section is a short autobiographical blurb -->
