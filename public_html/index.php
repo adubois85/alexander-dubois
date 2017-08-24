@@ -57,7 +57,7 @@
 		</section>
 
 		<!-- This section is a secured form for contacting me -->
-		<section class="section-contact-form hidden">
+		<section class="section-contact-form hidden modal fade">
 			<label for="contact-name">Your name</label>
 			<div class="input-group input-group-lg">
 				<span class="input-group-addon" id="contact-name"><i class="fa fa-user" aria-hidden="true"></i></span>
