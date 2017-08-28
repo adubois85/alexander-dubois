@@ -58,12 +58,12 @@
 		<!-- This section is for my resumé -->
 		<section class="section-resume hidden">
 			<div class="container">
-				<div class="row resume-title">
+				<div class="resume-title">
 					<div class="row">
-						<p class="col-xs-12 mr-auto"><em>Alexander DuBois</em></p>
+						<p class="col-xs-12"><em>Alexander DuBois</em></p>
 					</div>
 					<div class="row">
-						<p class="col-xs-12 mr-auto"><em>Albuquerque, New Mexico 87114</em> -- Willing to relocate</p>
+						<p class="col-xs-12"><em>Albuquerque, New Mexico 87114</em> -- Willing to relocate</p>
 					</div>
 					<div class="row">
 						<p class="col-xs-12 col-md-3"><em>(760) 793-3972</em></p>
@@ -86,6 +86,12 @@
 					<div class="row">
 						<p class="col-xs-12 col-md-4"><em>Other Skills</em></p>
 						<p class="col-xs-12 col-md-8">50+ WPM typing speed, 4,000 KPH 10-key, Attentive to details and will excel individually or with a team</p>
+					</div>
+				</div>
+				<div class="resume-experience">
+					<h6>Recent Experience</h6>
+					<div class="row">
+						<p class="col-"><em>Data Specialist</em> -- SL Start</p>
 					</div>
 				</div>
 
