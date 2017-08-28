@@ -51,7 +51,8 @@
 		<section class="section-projects hidden">
 			<div class="container-fluid">
 				<div class="row project1">
-					<a href="#"><img src="https://www.fillmurray.com/300/300" alt="foodquisition" class="img-fluid" /></a>
+					<a href="#"><img src="https://www.fillmurray.com/300/300" alt="foodquisition" class="img-fluid float-left
+					rounded col-xs-3" /></a>
 					<h5>Foodquisition</h5>
 					<p>
 						Have you ever wondered how well the restaurant you're eating at scored on its health inspection?
@@ -60,7 +61,8 @@
 					</p>
 				</div>
 				<div class="row project2">
-					<a href="#"><img src="https://www.fillmurray.com/g/300/300" alt="placeholder" /></a>
+					<a href="#"><img src="https://www.fillmurray.com/g/300/300" alt="placeholder" class="img-fluid
+					rounded"/></a>
 					<h5>Project 2</h5>
 					<p>
 						This is a description of the second project in this gallery.  It talks about what the project's aims
