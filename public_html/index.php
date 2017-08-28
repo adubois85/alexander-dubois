@@ -28,10 +28,10 @@
 				<div class="row justify-content-center">
 					<a class="btn btn-default border fa fa-caret-up d-inline" href="#about-me"></a>
 				</div>
-				<div class="row justify-content-around">
-					<a class="btn btn-default border fa fa-caret-left d-inline" href="#"></a>
-					<p class="border">This is my webpage.  Click on the arrows to navigate.</p>
-					<a class="btn btn-default border fa fa-caret-right d-inline" href="#"></a>
+				<div class="row justify-content-center">
+					<a class="btn btn-default border fa fa-caret-left col-xs-3" href="#"></a>
+					<p class="border col-xs-3">This is my webpage.  Click on the arrows to navigate.</p>
+					<a class="btn btn-default border fa fa-caret-right col-xs-3" href="#"></a>
 				</div>
 				<div class="row justify-content-center">
 					<a class="btn btn-default border fa fa-caret-down d-inline" href="#"></a>
@@ -49,8 +49,24 @@
 
 		<!-- This section is a showcase of other projects I've worked on -->
 		<section class="section-projects hidden">
-			<div class="container">
-
+			<div class="container-fluid">
+				<div class="row project1">
+					<a href="#"><img src="https://www.fillmurray.com/300/300" alt="foodquisition" class="img-fluid" /></a>
+					<h5>Foodquisition</h5>
+					<p>
+						Have you ever wondered how well the restaurant you're eating at scored on its health inspection?
+						Well, wonder no more.  A group project built primarily in MySQL, PHP, Angular, and Javascript with
+						3 other students
+					</p>
+				</div>
+				<div class="row project2">
+					<a href="#"><img src="https://www.fillmurray.com/g/300/300" alt="placeholder" /></a>
+					<h5>Project 2</h5>
+					<p>
+						This is a description of the second project in this gallery.  It talks about what the project's aims
+						are, what language(s) it was built with, and maybe a witty blurb.
+					</p>
+				</div>
 			</div>
 		</section>
 
