@@ -107,7 +107,16 @@
 						<li>Responsible for ensuring that all applications are complete with proper supporting documentation</li>
 						<li>Knowledgeable of benefits screening, especially for SNAP</li>
 					</ul>
-
+				</div>
+				<div class="temp-jobs">
+					<h6>Temp Jobs</h6>
+					<div class="row justify-content-between">
+						<p class="col-xs-6"><em>Various</em></p>
+						<p class="col-xs-6"><em>2011 - 2014</em></p>
+					</div>
+					<ul>
+						<li>Restaurants, Direct Care Staff Employee, Division of Vocational Rehabilitation</li>
+					</ul>
 				</div>
 
 			</div>
