@@ -59,21 +59,23 @@
 		<section class="section-resume hidden">
 			<div class="container">
 				<div class="resume-title">
-					<div class="row">
+					<div class="row justify-content-center">
 						<p class="col-xs-12"><em>Alexander DuBois</em></p>
 					</div>
-					<div class="row">
-						<p class="col-xs-12"><em>Albuquerque, New Mexico 87114</em> -- Willing to relocate</p>
+					<div class="row justify-content-center">
+						<p class="col-xs-12"><em>Albuquerque, New Mexico 87114</em> -- Willing to
+							relocate</p>
 					</div>
-					<div class="row">
+					<div class="row justify-content-center">
 						<p class="col-xs-12 col-md-3"><em>(760) 793-3972</em></p>
 						<p class="col-xs-12 col-md-3"><em>adubois@alumni.uci.edu</em></p>
 					</div>
-					<div class="row">
+					<div class="row justify-content-center">
 						<p class="col-xs-12 col-md-3">GitHub--<em>adubois85</em></p>
 						<p class="col-xs-12 col-md-3">LinkedIn--<em>/in/dubious</em></p>
 					</div>
 				</div>
+
 				<div class="resume-skills">
 					<div class="row">
 						<p class="col-xs-12 col-md-4"><em>Languages</em></p>
@@ -88,11 +90,24 @@
 						<p class="col-xs-12 col-md-8">50+ WPM typing speed, 4,000 KPH 10-key, Attentive to details and will excel individually or with a team</p>
 					</div>
 				</div>
+
 				<div class="resume-experience">
 					<h6>Recent Experience</h6>
-					<div class="row">
-						<p class="col-"><em>Data Specialist</em> -- SL Start</p>
+					<div class="row justify-content-between">
+						<p class="col-xs-6"><em>Data Specialist</em> -- SL Start</p>
+						<p class="col-xs-6"><em>August, 2015 to April, 2016</em></p>
 					</div>
+					<ul>
+						<li>Screened, counseled and advised clients on necessary documentation and eligibility requirements for SNAP (food stamps)</li>
+						<li>
+							Conducted outreach to community based organizations, emergency food programs and other
+							partners, providing information on SNAP rules and regulations
+						</li>
+						<li>Provided facilitated enrollment services to clients to apply and re-certify for SNAP</li>
+						<li>Responsible for ensuring that all applications are complete with proper supporting documentation</li>
+						<li>Knowledgeable of benefits screening, especially for SNAP</li>
+					</ul>
+
 				</div>
 
 			</div>
