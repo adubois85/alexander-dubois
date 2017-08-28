@@ -33,7 +33,7 @@
 					<p class="border">This is my webpage.  Click on the arrows to navigate.</p>
 					<a class="btn btn-default border fa fa-caret-right d-inline" href="#"></a>
 				</div>
-				<div class="row justify-content-cneter">
+				<div class="row justify-content-center">
 					<a class="btn btn-default border fa fa-caret-down d-inline" href="#"></a>
 				</div>
 			</div>
@@ -118,7 +118,23 @@
 						<li>Restaurants, Direct Care Staff Employee, Division of Vocational Rehabilitation</li>
 					</ul>
 				</div>
-
+				<div class="education">
+					<h6>Education</h6>
+					<div class="row justify-content-between">
+						<p class="col-xs-6"><em>B.A.</em>Psychology and Social Behavior</p>
+						<p class="col-xs-6"><em>September 2007</em></p>
+					</div>
+					<div class="row">
+						<p><em>B.A.</em>Studio Art</p>
+					</div>
+					<div class="row">
+						<p class="offset-xs-1">University of California, Irvine</p>
+					</div>
+				</div>
+				<div class="references">
+					<h6>References</h6>
+					<p>Available upon request</p>
+				</div>
 			</div>
 		</section>
 
