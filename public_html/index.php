@@ -26,6 +26,24 @@
 		<section class="section-main">
 			<div class="container">
 				<div class="row justify-content-center">
+					<i class="fa fa-caret-up border" id="slideout-up-on"></i>
+				</div>
+				<div class="row justify-content-center">
+					<i class="fa fa-caret-left border" id="slideout-left-on"></i>
+					<p class="border col-xs-3">This is my webpage.  Click on the arrows to navigate.</p>
+					<i class="fa fa-caret-right border" id="slideout-right-on"></i>
+				</div>
+				<div class="row justify-content-center">
+					<i class="fa fa-caret-down border" id="slideout-down-on"></i>
+				</div>
+			</div>
+		</section>
+
+		<!--		This is the main section; it acts as a navigation hub for the other sections I'm keeping this here for
+					the time being just to make sure everyting	I've coded to replace it works properly-->
+		<!--<section class="section-main">
+			<div class="container">
+				<div class="row justify-content-center">
 					<a class="btn btn-default border fa fa-caret-up d-inline" href="#about-me"></a>
 				</div>
 				<div class="row justify-content-center">
@@ -37,7 +55,7 @@
 					<a class="btn btn-default border fa fa-caret-down d-inline" href="#"></a>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 
 

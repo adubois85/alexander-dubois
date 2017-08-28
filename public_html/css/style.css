@@ -10,4 +10,11 @@ body {
 .fa-caret-up, .fa-caret-right, .fa-caret-down, .fa-caret-left {
 	font-size: 10em;
 	color: #E1E1E1;
+	transition: color 0.15s ease-in;
+}
+
+.fa-caret-up:hover, .fa-caret-right:hover, .fa-caret-down:hover, .fa-caret-left:hover {
+	cursor: pointer;
+	color: dodgerblue;
+	transition: color 0.25s ease-out;
 }
