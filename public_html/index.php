@@ -59,29 +59,37 @@
 		<section class="section-resume hidden">
 			<div class="container">
 				<div class="row resume-title">
-					<h1 class="col-xs-12">Alexander DuBois</h1>
-					<h1 class="col-xs-12">Albuquerque, New Mexico 87114<em> -- Willing to relocate</em></h1>
-					<h1 class="col-xs-12 col-md-3">(760) 793-3972</h1>
-					<h1 class="col-xs-12 col-md-3">adubois@alumni.uci.edu</h1>
-					<h1 class="col-xs-12 col-md-3"><em>GitHub--</em>adubois85</h1>
-					<h1 class="col-xs-12 col-md-3"><em>LinkedIn--</em>/in/dubious</h1>
+					<div class="row">
+						<p class="col-xs-12 mr-auto"><em>Alexander DuBois</em></p>
+					</div>
+					<div class="row">
+						<p class="col-xs-12 mr-auto"><em>Albuquerque, New Mexico 87114</em> -- Willing to relocate</p>
+					</div>
+					<div class="row">
+						<p class="col-xs-12 col-md-3"><em>(760) 793-3972</em></p>
+						<p class="col-xs-12 col-md-3"><em>adubois@alumni.uci.edu</em></p>
+					</div>
+					<div class="row">
+						<p class="col-xs-12 col-md-3">GitHub--<em>adubois85</em></p>
+						<p class="col-xs-12 col-md-3">LinkedIn--<em>/in/dubious</em></p>
+					</div>
 				</div>
 				<div class="resume-skills">
 					<div class="row">
-						<h1 class="col-xs-12 col-md-4">Languages</h1>
+						<p class="col-xs-12 col-md-4"><em>Languages</em></p>
 						<p class="col-xs-12 col-md-8">PHP, Javascript, MySQL, HTML5, CSS</p>
 					</div>
 					<div class="row">
-						<h1 class="col-xs-12 col-md-4">Tools</h1>
+						<p class="col-xs-12 col-md-4"><em>Tools</em></p>
 						<p class="col-xs-12 col-md-8">GitHub, Bootstrap, AngularJS, PHPStorm, Atom</p>
 					</div>
 					<div class="row">
-						<h1 class="col-xs-12 col-md-4">Other Skills</h1>
+						<p class="col-xs-12 col-md-4"><em>Other Skills</em></p>
 						<p class="col-xs-12 col-md-8">50+ WPM typing speed, 4,000 KPH 10-key, Attentive to details and will excel individually or with a team</p>
 					</div>
 				</div>
-			</div>
 
+			</div>
 		</section>
 
 		<!-- This section is a secured form for contacting me -->
