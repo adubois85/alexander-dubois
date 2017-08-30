@@ -31,3 +31,54 @@ body {
 #slideout-about-me.on {
 	top: 30%;
 }
+
+#slideout-resume {
+	background: #fff;
+	box-shadow: 0 0 5px rgba(0,0,0,.3);
+	color: #333;
+	position: fixed;
+	top: -100%;
+	right: auto;
+	-webkit-transition-duration: 0.25s;
+	-moz-transition-duration: 1.3s;
+	-o-transition-duration: 1.3s;
+	transition-duration: 1.25s;
+}
+
+#slideout-resume.on {
+	top: 30%;
+}
+
+#slideout-projects {
+	background: #fff;
+	box-shadow: 0 0 5px rgba(0,0,0,.3);
+	color: #333;
+	position: fixed;
+	top: -90%;
+	right: auto;
+	-webkit-transition-duration: 0.25s;
+	-moz-transition-duration: 1.3s;
+	-o-transition-duration: 1.3s;
+	transition-duration: 1.25s;
+}
+
+#slideout-projects.on {
+	top: 30%;
+}
+
+#slideout-contact-form {
+	background: #fff;
+	box-shadow: 0 0 5px rgba(0,0,0,.3);
+	color: #333;
+	position: fixed;
+	top: -90%;
+	right: auto;
+	-webkit-transition-duration: 0.25s;
+	-moz-transition-duration: 1.3s;
+	-o-transition-duration: 1.3s;
+	transition-duration: 1.25s;
+}
+
+#slideout-contact-form.on {
+	top: 30%;
+}

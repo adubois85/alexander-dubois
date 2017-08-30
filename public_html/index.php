@@ -73,7 +73,7 @@
 
 		<!-- This section is a showcase of other projects I've worked on -->
 		<section class="section-projects">
-			<div class="container-fluid">
+			<div class="container-fluid" id="slideout-projects">
 				<div class="row project1">
 					<a href="#"><img src="https://www.fillmurray.com/300/300" alt="foodquisition" class="img-fluid float-left
 					rounded col-xs-3" /></a>
@@ -99,7 +99,7 @@
 
 		<!-- This section is for my resumé -->
 		<section class="section-resume">
-			<div class="container">
+			<div class="container" id="slideout-resume">
 				<div class="resume-title">
 					<div class="row justify-content-center">
 						<p class="col-xs-12"><em>Alexander DuBois</em></p>
@@ -182,34 +182,35 @@
 
 		<!-- This section is a secured form for contacting me -->
 		<section class="section-contact-form">
-			<label for="contact-name">Your name</label>
-			<div class="input-group input-group-lg">
-				<span class="input-group-addon" id="contact-name"><i class="fa fa-user" aria-hidden="true"></i></span>
-				<input type="text" class="form-control" placeholder="What should I call you?" aria-label="Your name" />
-			</div>
+			<div class="container" id="slideout-contact-form">
+				<label for="contact-name">Your name</label>
+				<div class="input-group input-group-lg">
+					<span class="input-group-addon" id="contact-name"><i class="fa fa-user" aria-hidden="true"></i></span>
+					<input type="text" class="form-control" placeholder="What should I call you?" aria-label="Your name" />
+				</div>
 
-			<label for="contact-email">Your email</label>
-			<div class="input-group">
-				<span class="input-group-addon" id="contact-email"><i class="fa fa-envelope" aria-hidden="true"></i></span>
-				<input type="text" class="form-control" placeholder="Where can I reach you?" aria-label="Your email
+				<label for="contact-email">Your email</label>
+				<div class="input-group">
+					<span class="input-group-addon" id="contact-email"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+					<input type="text" class="form-control" placeholder="Where can I reach you?" aria-label="Your email
 				address" />
-			</div>
+				</div>
 
-			<label for="contact-subject">Email subject</label>
-			<div class="input-group">
-				<span class="input-group-addon" id="contact-subject"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-</span>
-				<input type="text" class="form-control" placeholder="Why are you contacting me today?" aria-label="Email
+				<label for="contact-subject">Email subject</label>
+				<div class="input-group">
+					<span class="input-group-addon" id="contact-subject"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span>
+					<input type="text" class="form-control" placeholder="Why are you contacting me today?" aria-label="Email
 				subject line" />
-			</div>
+				</div>
 
-			<label for="contact-body">Email body</label>
-			<div class="input-group">
+				<label for="contact-body">Email body</label>
+				<div class="input-group">
 				<textarea class="form-control"  id="contact-body" rows=6 placeholder="What's on your mind? (4000 characters max)"
-						 aria-label="Email body"></textarea>
-			</div>
+							 aria-label="Email body"></textarea>
+				</div>
 
-			<button class="btn btn-primary" type="submit">Submit</button>
+				<button class="btn btn-primary" type="submit">Submit</button>
+			</div>
 		</section>
 
 

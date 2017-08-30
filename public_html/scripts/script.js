@@ -3,14 +3,14 @@ $('.fa-caret-up').click(function(){
 });
 
 $(".fa-caret-right").on("click", function() {
-	$(".section-projects").toggle(2000);
+	$("#slideout-projects").toggleClass('on');
 });
 
 $(".fa-caret-down").on("click", function() {
-	$(".section-contact-form").toggle(2000);
+	$("#slideout-contact-form").toggleClass('on');
 });
 
 $(".fa-caret-left").on("click", function() {
-	$("#slideout-about-me").toggleClass("on");
+	$("#slideout-resume").toggleClass("on");
 });
 
