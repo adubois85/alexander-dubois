@@ -18,3 +18,20 @@ body {
 	color: dodgerblue;
 	transition: color 0.25s ease-out;
 }
+
+#slideout-about-me {
+	background: #fff;
+	box-shadow: 0 0 5px rgba(0,0,0,.3);
+	color: #333;
+	position: fixed;
+	top: -25%;
+	right: auto;
+	-webkit-transition-duration: 0.25s;
+	-moz-transition-duration: 1.3s;
+	-o-transition-duration: 1.3s;
+	transition-duration: 1.25s;
+}
+
+#slideout-about-me.on {
+	top: 30%;
+}

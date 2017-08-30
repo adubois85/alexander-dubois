@@ -1,5 +1,5 @@
-$(".fa-caret-up").on("click", function() {
-	$(".section-about-me").toggle(2000);
+$('.fa-caret-up').click(function(){
+	$('#slideout-about-me').toggleClass('on');
 });
 
 $(".fa-caret-right").on("click", function() {
@@ -11,6 +11,6 @@ $(".fa-caret-down").on("click", function() {
 });
 
 $(".fa-caret-left").on("click", function() {
-	$(".section-resume").toggle(2000);
+	$("#slideout-about-me").toggleClass("on");
 });
 

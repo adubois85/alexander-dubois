@@ -60,9 +60,15 @@
 
 
 		<!-- This section is a short autobiographical blurb -->
-		<section class="section-about-me hidden">
-			<p>Test placeholder text.</p>
-
+		<section class="section-about-me">
+			<div class="container" id="slideout-about-me">
+				<p>
+					We're acquainted with the wormhole phenomenon, but this... Is a remarkable piece of bio-electronic engineering by which I see much of the EM spectrum ranging from heat and infrared through radio waves, et cetera, and forgive me if I've said and listened to this a thousand times. This planet's interior heat provides an abundance of geothermal energy. We need to neutralize the homing signal.
+				</p>
+				<p>
+					Now what are the possibilities of warp drive? Cmdr Riker's nervous system has been invaded by an unknown microorganism. The organisms fuse to the nerve, intertwining at the molecular level. That's why the transporter's biofilters couldn't extract it. The vertex waves show a K-complex corresponding to an REM state. The engineering section's critical. Destruction is imminent. Their robes contain ultritium, highly explosive, virtually undetectable by your transporter.
+				</p>
+			</div>
 		</section>
 
 		<!-- This section is a showcase of other projects I've worked on -->
