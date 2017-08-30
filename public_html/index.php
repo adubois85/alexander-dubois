@@ -72,7 +72,7 @@
 		</section>
 
 		<!-- This section is a showcase of other projects I've worked on -->
-		<section class="section-projects hidden">
+		<section class="section-projects">
 			<div class="container-fluid">
 				<div class="row project1">
 					<a href="#"><img src="https://www.fillmurray.com/300/300" alt="foodquisition" class="img-fluid float-left
@@ -98,7 +98,7 @@
 
 
 		<!-- This section is for my resumé -->
-		<section class="section-resume hidden">
+		<section class="section-resume">
 			<div class="container">
 				<div class="resume-title">
 					<div class="row justify-content-center">
@@ -181,7 +181,7 @@
 		</section>
 
 		<!-- This section is a secured form for contacting me -->
-		<section class="section-contact-form hidden">
+		<section class="section-contact-form">
 			<label for="contact-name">Your name</label>
 			<div class="input-group input-group-lg">
 				<span class="input-group-addon" id="contact-name"><i class="fa fa-user" aria-hidden="true"></i></span>
