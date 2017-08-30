@@ -39,25 +39,9 @@
 			</div>
 		</section>
 
-		<!--		This is the main section; it acts as a navigation hub for the other sections I'm keeping this here for
-					the time being just to make sure everyting	I've coded to replace it works properly-->
-		<!--<section class="section-main">
-			<div class="container">
-				<div class="row justify-content-center">
-					<a class="btn btn-default border fa fa-caret-up d-inline" href="#about-me"></a>
-				</div>
-				<div class="row justify-content-center">
-					<a class="btn btn-default border fa fa-caret-left col-xs-3" href="#"></a>
-					<p class="border col-xs-3">This is my webpage.  Click on the arrows to navigate.</p>
-					<a class="btn btn-default border fa fa-caret-right col-xs-3" href="#"></a>
-				</div>
-				<div class="row justify-content-center">
-					<a class="btn btn-default border fa fa-caret-down d-inline" href="#"></a>
-				</div>
-			</div>
-		</section> -->
-
-
+		<!--  Code for sliding panels based on example at:
+				https://codepen.io/exitfish/pen/BydsE
+		 		by Matthew Podsiad -->
 
 		<!-- This section is a short autobiographical blurb -->
 		<section class="section-about-me">
