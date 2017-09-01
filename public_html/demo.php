@@ -27,10 +27,10 @@
 
 
 
-		<script src="js/anime.min.js"></script>
-		<script src="js/enquire.min.js"></script>
-		<script src="js/tabsnav.js"></script>
-		<script src="js/demo2.js"></script>
+		<script src="scripts/anime.min.js"></script>
+		<script src="scripts/enquire.min.js"></script>
+		<script src="scripts/tabsnav.js"></script>
+		<script src="scripts/demo2.js"></script>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
