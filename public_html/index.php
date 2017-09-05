@@ -90,18 +90,18 @@
 					<div class="modal-content">
 
 						<div class="resume-title">
-							<div class="row justify-content-center">
+							<div class="row">
 								<p class="col-xs-12"><em>Alexander DuBois</em></p>
 							</div>
-							<div class="row justify-content-center">
+							<div class="row">
 								<p class="col-xs-12"><em>Albuquerque, New Mexico 87114</em> -- Willing to
 									relocate</p>
 							</div>
-							<div class="row justify-content-center">
+							<div class="row">
 								<p class="col-xs-12 col-md-3"><em>(760) 793-3972</em></p>
 								<p class="col-xs-12 col-md-3"><em>adubois@alumni.uci.edu</em></p>
 							</div>
-							<div class="row justify-content-center">
+							<div class="row">
 								<p class="col-xs-12 col-md-3">GitHub--<em>adubois85</em></p>
 								<p class="col-xs-12 col-md-3">LinkedIn--<em>/in/dubious</em></p>
 							</div>
@@ -124,7 +124,7 @@
 
 						<div class="resume-experience">
 							<h6>Recent Experience</h6>
-							<div class="row justify-content-between">
+							<div class="row">
 								<p class="col-xs-6"><em>Data Specialist</em> -- SL Start</p>
 								<p class="col-xs-6"><em>August, 2015 to April, 2016</em></p>
 							</div>
@@ -141,7 +141,7 @@
 						</div>
 						<div class="temp-jobs">
 							<h6>Temp Jobs</h6>
-							<div class="row justify-content-between">
+							<div class="row">
 								<p class="col-xs-6"><em>Various</em></p>
 								<p class="col-xs-6"><em>2011 - 2014</em></p>
 							</div>
@@ -151,7 +151,7 @@
 						</div>
 						<div class="education">
 							<h6>Education</h6>
-							<div class="row justify-content-between">
+							<div class="row">
 								<p class="col-xs-6"><em>B.A.</em>Psychology and Social Behavior</p>
 								<p class="col-xs-6"><em>September 2007</em></p>
 							</div>
