@@ -1,30 +1,31 @@
-<?
+<?php
 /**
-* require all composer dependencies; requiring the autoload file loads all composer packages at once
-**/
+ * require all composer dependencies; requiring the autoload file loads all composer packages at once
+ **/
 require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
 
 /**
- * require mail-config.php so we have access to our keys and e-mail send-to email
+ * require mailer-config.php
  **/
 require_once("mail-config.php");
 
 // verify user's reCAPTCHA input
 $recaptcha = new \ReCaptcha\ReCaptcha($secret);
-$response = $recaptcha->verify($_POST["g-recaptcha-response"], $_SERVER["REMOTE_ADDR"]);
+$resp = $recaptcha->verify($_POST["g-recaptcha-response"], $_SERVER["REMOTE_ADDR"]);
 
 try {
+
 	// if reCAPTCHA error, output the error code to the user
-	if (!$response->isSuccess()) {
-	throw(new Exception("reCAPTCHA error!"));
+	if (!$resp->isSuccess()) {
+		throw(new Exception("reCAPTCHA error!"));
 	}
 
-	// We can't trust end users, so we sanitize their form inputs: name, email, subject, and message
-	// note, this exact method won't work in angular -- we're assuming that jQuery is doing the submitting
+	// sanitize the inputs from the form: name, email, subject, and message
+	// this assumes jQuery (not Angular will be submitting the form, so we're using the $_POST superglobal
 	$name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
 	$subject = filter_input(INPUT_POST, "subject", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-	$body = filter_input(INPUT_POST, "body", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$message = filter_input(INPUT_POST, "body", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 
 	// create Swift message
 	$swiftMessage = new Swift_Message();
@@ -34,9 +35,9 @@ try {
 	$swiftMessage->setFrom([$email => $name]);
 
 	/**
-	* attach the recipients to the message
-	* $MAIL_RECIPIENTS is set in mail-config.php
-	**/
+	 * attach the recipients to the message
+	 * $MAIL_RECIPIENTS is set in mail-config.php
+	 **/
 	$recipients = $mailRecipients;
 	$swiftMessage->setTo($recipients);
 
@@ -45,11 +46,13 @@ try {
 
 	/**
 	 * attach the actual message to the message
-	 * here, we set two versions of the message: the HTML formatted message and a plain text version of the HTML
-	 * content this lets users who aren't viewing HTML content in Emails still access the links
+	 * here, we set two versions of the message: the HTML formatted message and a special filter_var()ed
+	 * version of the message that generates a plain text version of the HTML content
+	 * notice one tactic used is to display the entire $confirmLink to plain text; this lets users
+	 * who aren't viewing HTML content in Emails still access your links
 	 **/
-	$swiftMessage->setBody($body, "text/html");
-	$swiftMessage->addPart(html_entity_decode($body), "text/plain");
+	$swiftMessage->setBody($message, "text/html");
+	$swiftMessage->addPart(html_entity_decode($message), "text/plain");
 
 	/**
 	 * send the Email via SMTP; the SMTP server here is configured to relay everything upstream via CNM
@@ -62,17 +65,17 @@ try {
 	$numSent = $mailer->send($swiftMessage, $failedRecipients);
 
 	/**
-	 * the send method returns the number of recipients that accepted the Email, therefore if the number attempted is not
-	 * equal to the number accepted, you have a problem -- so throw an Exception
+	 * the send method returns the number of recipients that accepted the Email
+	 * so, if the number attempted is not the number accepted, this is an Exception
 	 **/
 	if($numSent !== count($recipients)) {
 		// the $failedRecipients parameter passed in the send() method now contains contains an array of the Emails that failed
-		throw(new RuntimeException("Unable to send email."));
+		throw(new RuntimeException("unable to send email"));
 	}
+
 	// report a successful send
 	echo "<div class=\"alert alert-success\" role=\"alert\">Email successfully sent.</div>";
 
 } catch(Exception $exception) {
-	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Oops</strong>, Somthing went wrong and the email wasn't able to be sent: " .
-		$exception->getMessage() . "</div>";
+	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Oh snap!</strong> Unable to send email: " . $exception->getMessage() . "</div>";
 }

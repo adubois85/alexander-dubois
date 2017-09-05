@@ -8,6 +8,11 @@
 		<!-- jQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<!-- My JavaScript file -->
+		<script src="scripts/script.js"></script>
+
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
@@ -55,7 +60,7 @@
 		<section class="section-about-me">
 			<div class="modal fade" id="modal-about-me" tabindex="-1" role="dialog" aria-labelledby="About Me">
 				<div class="modal-dialog" role="document">
-					<div class="modal-content container">
+					<div class="modal-content container-fluid">
 						<p>
 							We're acquainted with the wormhole phenomenon, but this... Is a remarkable piece of bio-electronic engineering by which I see much of the EM spectrum ranging from heat and infrared through radio waves, et cetera, and forgive me if I've said and listened to this a thousand times. This planet's interior heat provides an abundance of geothermal energy. We need to neutralize the homing signal.
 						</p>
@@ -71,10 +76,9 @@
 		<section class="section-projects">
 			<div class="modal fade" id="modal-projects" tabindex="-1" role="dialog" aria-labelledby="Other Projects">
 				<div class="modal-dialog modal-lg" role="document">
-					<div class="modal-content">
+					<div class="modal-content container-fluid">
 						<div class="row project1">
-							<a href="#"><img src="https://www.fillmurray.com/300/300" alt="foodquisition" class="img-fluid float-left
-						rounded col-xs-3" /></a>
+							<a href="#"><img src="https://www.fillmurray.com/300/300" alt="foodquisition" class="img-responsive img-rounded col-md-3" /></a>
 							<h5>Foodquisition</h5>
 							<p>
 								Have you ever wondered how well the restaurant you're eating at scored on its health inspection?
@@ -83,9 +87,8 @@
 							</p>
 						</div>
 						<div class="row project2">
-							<a href="#"><img src="https://www.fillmurray.com/g/300/300" alt="placeholder" class="img-fluid
-						rounded"/></a>
-							<h5>Project 2</h5>
+							<a href="#"><img src="https://www.fillmurray.com/g/300/300" alt="placeholder" class="img-responsive img-rounded col-md-3"/></a>
+							<h5 class="float-right">Project 2</h5>
 							<p>
 								This is a description of the second project in this gallery.  It talks about what the project's aims
 								are, what language(s) it was built with, and maybe a witty blurb.
@@ -216,12 +219,8 @@
 								</div>
 							</div>
 
-							<div class="form-group">
-								<label for="contact-body">Email body</label>
-								<div class="input-group">
-								<textarea class="form-control"  id="body" name="body" rows=6 placeholder="What's on your mind? (4000 characters max)" aria-label="Email body"></textarea>
-								</div>
-							</div>
+							<label for="contact-body">Email body</label>
+							<textarea class="form-control"  id="body" name="body" rows="6" placeholder="What's on your mind? (4000 characters max)" aria-label="Email body"></textarea>
 
 							<!-- reCAPTCHA -->
 							<div class="g-recaptcha" data-sitekey="6Lep6C4UAAAAAO4cEqugy2QagJndAaB6NBFccbNK"></div>
@@ -241,11 +240,5 @@
 				</div>
 			</div>
 		</section>
-
-		<!-- Popper.js, then Bootstrap JS -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<!-- My JavaScript file -->
-		<script src="scripts/script.js"></script>
 	</body>
 </html>

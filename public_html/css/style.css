@@ -18,3 +18,7 @@ body {
 .modal {
 	color: #000;
 }
+
+img {
+	padding: 2em;
+}
