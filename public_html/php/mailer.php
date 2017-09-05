@@ -21,10 +21,10 @@ try {
 
 	// We can't trust end users, so we sanitize their form inputs: name, email, subject, and message
 	// note, this exact method won't work in angular -- we're assuming that jQuery is doing the submitting
-	$name = filter_input(INPUT_POST, "contact-name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-	$email = filter_input(INPUT_POST, "contact-email", FILTER_SANITIZE_EMAIL);
-	$subject = filter_input(INPUT_POST, "contact-subject", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-	$body = filter_input(INPUT_POST, "contact-body", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
+	$subject = filter_input(INPUT_POST, "subject", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$body = filter_input(INPUT_POST, "body", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 
 	// create Swift message
 	$swiftMessage = new Swift_Message();

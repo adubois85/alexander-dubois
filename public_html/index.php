@@ -193,7 +193,7 @@
 								<label for="contact-name">Your name</label>
 								<div class="input-group input-group-lg">
 									<span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" id="contact-name" name="contact-name" placeholder="What should I call you?" aria-label="Your name" />
+									<input type="text" class="form-control" id="name" name="name" placeholder="What should I call you?" aria-label="Your name" />
 								</div>
 							</div>
 
@@ -201,7 +201,7 @@
 								<label for="contact-email">Your email</label>
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" id="contact-email" name="contact-email" placeholder="Where can I reach you?" aria-label="Your email address" />
+									<input type="text" class="form-control" id="email" name="email" placeholder="Where can I reach you?" aria-label="Your email address" />
 								</div>
 							</div>
 
@@ -209,14 +209,14 @@
 								<label for="contact-subject">Email subject</label>
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span>
-									<input type="email" class="form-control" id="contact-subject" name="contact-subject" placeholder="Why are you contacting me today?" aria-label="Email subject line" />
+									<input type="email" class="form-control" id="subject" name="subject" placeholder="Why are you contacting me today?" aria-label="Email subject line" />
 								</div>
 							</div>
 
 							<div class="form-group">
 								<label for="contact-body">Email body</label>
 								<div class="input-group">
-								<textarea class="form-control"  id="contact-body" name="contact-body" rows=6 placeholder="What's on your mind? (4000 characters max)" aria-label="Email body"></textarea>
+								<textarea class="form-control"  id="body" name="body" rows=6 placeholder="What's on your mind? (4000 characters max)" aria-label="Email body"></textarea>
 								</div>
 							</div>
 
