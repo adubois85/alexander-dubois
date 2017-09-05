@@ -87,19 +87,19 @@
 		<section class="section-resume">
 			<div class="modal fade" id="modal-resume" tabindex="-1" role="dialog" aria-labelledby="Resumé">
 				<div class="modal-dialog modal-lg" role="document">
-					<div class="modal-content">
+					<div class="modal-content container-fluid">
 
 						<div class="resume-title">
 							<div class="row">
-								<p class="col-xs-12"><em>Alexander DuBois</em></p>
+								<p class="col-xs-12 text-center"><em>Alexander DuBois</em></p>
 							</div>
 							<div class="row">
-								<p class="col-xs-12"><em>Albuquerque, New Mexico 87114</em> -- Willing to
+								<p class="col-xs-12 text-center"><em>Albuquerque, New Mexico 87114</em> -- Willing to
 									relocate</p>
 							</div>
 							<div class="row">
-								<p class="col-xs-12 col-md-3"><em>(760) 793-3972</em></p>
-								<p class="col-xs-12 col-md-3"><em>adubois@alumni.uci.edu</em></p>
+								<p class="col-xs-12 col-md-3 text-center"><em>(760) 793-3972</em></p>
+								<p class="col-xs-12 col-md-3 text-center"><em>adubois@alumni.uci.edu</em></p>
 							</div>
 							<div class="row">
 								<p class="col-xs-12 col-md-3">GitHub--<em>adubois85</em></p>
@@ -126,7 +126,7 @@
 							<h6>Recent Experience</h6>
 							<div class="row">
 								<p class="col-xs-6"><em>Data Specialist</em> -- SL Start</p>
-								<p class="col-xs-6"><em>August, 2015 to April, 2016</em></p>
+								<p class="col-xs-6 text-right"><em>August, 2015 to April, 2016</em></p>
 							</div>
 							<ul>
 								<li>Screened, counseled and advised clients on necessary documentation and eligibility requirements for SNAP (food stamps)</li>
@@ -143,7 +143,7 @@
 							<h6>Temp Jobs</h6>
 							<div class="row">
 								<p class="col-xs-6"><em>Various</em></p>
-								<p class="col-xs-6"><em>2011 - 2014</em></p>
+								<p class="col-xs-6 text-right"><em>2011 - 2014</em></p>
 							</div>
 							<ul>
 								<li>Restaurants, Direct Care Staff Employee, Division of Vocational Rehabilitation</li>
@@ -153,13 +153,13 @@
 							<h6>Education</h6>
 							<div class="row">
 								<p class="col-xs-6"><em>B.A.</em>Psychology and Social Behavior</p>
-								<p class="col-xs-6"><em>September 2007</em></p>
+								<p class="col-xs-6 text-right"><em>September 2007</em></p>
 							</div>
 							<div class="row">
-								<p><em>B.A.</em>Studio Art</p>
+								<p class="col-xs-6"><em>B.A.</em>Studio Art</p>
 							</div>
 							<div class="row">
-								<p class="offset-xs-1">University of California, Irvine</p>
+								<p class="col-xs-6">University of California, Irvine</p>
 							</div>
 						</div>
 						<div class="references">
