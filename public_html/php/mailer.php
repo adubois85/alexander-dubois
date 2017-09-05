@@ -50,3 +50,29 @@ try {
 	 **/
 	$swiftMessage->setBody($body, "text/html");
 	$swiftMessage->addPart(html_entity_decode($body), "text/plain");
+
+	/**
+	 * send the Email via SMTP; the SMTP server here is configured to relay everything upstream via CNM
+	 * this default may or may not be available on all web hosts; consult their documentation/support for details
+	 * SwiftMailer supports many different transport methods; SMTP was chosen because it's the most compatible and has the best error handling
+	 * @see http://swiftmailer.org/docs/sending.html Sending Messages - Documentation - SwitftMailer
+	 **/
+	$smtp = new Swift_SmtpTransport("localhost", 25);
+	$mailer = new Swift_Mailer($smtp);
+	$numSent = $mailer->send($swiftMessage, $failedRecipients);
+
+	/**
+	 * the send method returns the number of recipients that accepted the Email, therefore if the number attempted is not
+	 * equal to the number accepted, you have a problem -- so throw an Exception
+	 **/
+	if($numSent !== count($recipients)) {
+		// the $failedRecipients parameter passed in the send() method now contains contains an array of the Emails that failed
+		throw(new RuntimeException("Unable to send email."));
+	}
+	// report a successful send
+	echo "<div class=\"alert alert-success\" role=\"alert\">Email successfully sent.</div>";
+
+} catch(Exception $exception) {
+	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Oops</strong>, Somthing went wrong and the email wasn't able to be sent: " .
+		$exception->getMessage() . "</div>";
+}
