@@ -192,24 +192,24 @@
 							<div class="form-group">
 								<label for="contact-name">Your name</label>
 								<div class="input-group input-group-lg">
-									<span class="input-group-addon" id="contact-name"><i class="fa fa-user" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" name="contact-name" placeholder="What should I call you?" aria-label="Your name" />
+									<span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" id="contact-name" name="contact-name" placeholder="What should I call you?" aria-label="Your name" />
 								</div>
 							</div>
 
 							<div class="form-group">
 								<label for="contact-email">Your email</label>
 								<div class="input-group">
-									<span class="input-group-addon" id="contact-email"><i class="fa fa-envelope" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" name="contact-email" placeholder="Where can I reach you?" aria-label="Your email address" />
+									<span class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" id="contact-email" name="contact-email" placeholder="Where can I reach you?" aria-label="Your email address" />
 								</div>
 							</div>
 
 							<div class="form-group">
 								<label for="contact-subject">Email subject</label>
 								<div class="input-group">
-									<span class="input-group-addon" id="contact-subject"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" name="contact-subject" placeholder="Why are you contacting me today?" aria-label="Email subject line" />
+									<span class="input-group-addon"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span>
+									<input type="email" class="form-control" id="contact-subject" name="contact-subject" placeholder="Why are you contacting me today?" aria-label="Email subject line" />
 								</div>
 							</div>
 
