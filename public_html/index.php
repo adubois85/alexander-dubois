@@ -204,8 +204,7 @@
 								<label for="contact-email">Your email</label>
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
-									<input type="email" class="form-control" id="email" name="email" placeholder="Where can I
-									reach you?" aria-label="Your email address" />
+									<input type="email" class="form-control" id="email" name="email" placeholder="Where can I reach you?" aria-label="Your email address" />
 								</div>
 							</div>
 
@@ -213,8 +212,7 @@
 								<label for="contact-subject">Email subject</label>
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" id="subject" name="subject" placeholder="Why are you
-									contacting me today?" aria-label="Email subject line" />
+									<input type="text" class="form-control" id="subject" name="subject" placeholder="Why are you contacting me today?" aria-label="Email subject line" />
 								</div>
 							</div>
 
