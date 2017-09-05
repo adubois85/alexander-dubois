@@ -40,8 +40,8 @@
 		<!-- This section is a short autobiographical blurb -->
 		<section class="section-about-me">
 			<div class="modal fade" id="modal-about-me" tabindex="-1" role="dialog" aria-labelledby="About Me">
-				<div class="modal-dialog modal-lg" role="document">
-					<div class="modal-content">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content container">
 						<p>
 							We're acquainted with the wormhole phenomenon, but this... Is a remarkable piece of bio-electronic engineering by which I see much of the EM spectrum ranging from heat and infrared through radio waves, et cetera, and forgive me if I've said and listened to this a thousand times. This planet's interior heat provides an abundance of geothermal energy. We need to neutralize the homing signal.
 						</p>
@@ -86,7 +86,7 @@
 		<!-- This section is for my resumé -->
 		<section class="section-resume">
 			<div class="modal fade" id="modal-resume" tabindex="-1" role="dialog" aria-labelledby="Resumé">
-				<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-dialog" role="document">
 					<div class="modal-content container-fluid">
 
 						<div class="resume-title">
@@ -98,12 +98,12 @@
 									relocate</p>
 							</div>
 							<div class="row">
-								<p class="col-xs-12 col-md-3 text-center"><em>(760) 793-3972</em></p>
-								<p class="col-xs-12 col-md-3 text-center"><em>adubois@alumni.uci.edu</em></p>
+								<p class="col-xs-12 col-md-3 col-md-offset-3 text-center"><em>(760) 793-3972</em></p>
+								<p class="col-xs-12 col-md-2 text-left"><em>adubois@alumni.uci.edu</em></p>
 							</div>
 							<div class="row">
-								<p class="col-xs-12 col-md-3">GitHub--<em>adubois85</em></p>
-								<p class="col-xs-12 col-md-3">LinkedIn--<em>/in/dubious</em></p>
+								<p class="col-xs-12 col-md-3 text-center">GitHub--<em>adubois85</em></p>
+								<p class="col-xs-12 col-md-3 text-center">LinkedIn--<em>/in/dubious</em></p>
 							</div>
 						</div>
 
@@ -175,7 +175,7 @@
 		<section class="section-contact-form">
 			<div class="modal fade" id="modal-contact" tabindex="-1" role="dialog" aria-labelledby="Contact Form">
 				<div class="modal-dialog modal-lg" role="document">
-					<div class="modal-content">
+					<div class="modal-content container-fluid">
 						<label for="contact-name">Your name</label>
 						<div class="input-group input-group-lg">
 							<span class="input-group-addon" id="contact-name"><i class="fa fa-user" aria-hidden="true"></i></span>
