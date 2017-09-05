@@ -12,31 +12,31 @@ $(document).ready(function(){
 		// rules define what is good/bad input
 		// each rule starts with the form input element's NAME attribute
 		rules: {
-			name: {
+			'contact-name': {
 				required: true
 			},
-			email: {
+			'contact-email': {
 				email: true,
 				required: true
 			},
-			message: {
+			'contact-body': {
 				required: true,
-				maxlength: 2000
+				maxlength: 4000
 			}
 		},
 
 		// error messages to display to the end user
 		messages: {
-			name: {
+			'contact-name': {
 				required: "Please enter your name."
 			},
-			email: {
+			'contact-email': {
 				email: "Please enter a valid email address.",
 				required: "Please enter a valid email address."
 			},
-			message: {
+			'contact-body': {
 				required: "Please enter a message.",
-				maxlength: "2000 characters max."
+				maxlength: "Your message can't be more than 4000 characters."
 			}
 		},
 
