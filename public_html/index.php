@@ -219,6 +219,12 @@
 								<textarea class="form-control"  id="contact-body" name="contact-body" rows=6 placeholder="What's on your mind? (4000 characters max)" aria-label="Email body"></textarea>
 								</div>
 							</div>
+
+							<!-- reCAPTCHA -->
+							<div class="g-recaptcha" data-sitekey="6Lep6C4UAAAAAO4cEqugy2QagJndAaB6NBFccbNK"></div>
+
+							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 						</form>
 
 						<!--empty area for form error/success output-->
