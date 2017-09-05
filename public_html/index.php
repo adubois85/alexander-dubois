@@ -187,37 +187,47 @@
 			<div class="modal fade" id="modal-contact" tabindex="-1" role="dialog" aria-labelledby="Contact Form">
 				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content container-fluid">
-						<label for="contact-name">Your name</label>
-						<div class="input-group input-group-lg">
-							<span class="input-group-addon" id="contact-name"><i class="fa fa-user" aria-hidden="true"></i></span>
-							<input type="text" class="form-control" name="name" placeholder="What should I call you?"
-									 aria-label="Your name" />
+						<form id="contact-form" action="php/mailer.php" method="post">
+
+							<div class="form-group">
+								<label for="contact-name">Your name</label>
+								<div class="input-group input-group-lg">
+									<span class="input-group-addon" id="contact-name"><i class="fa fa-user" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="contact-name" placeholder="What should I call you?" aria-label="Your name" />
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="contact-email">Your email</label>
+								<div class="input-group">
+									<span class="input-group-addon" id="contact-email"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="contact-email" placeholder="Where can I reach you?" aria-label="Your email address" />
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="contact-subject">Email subject</label>
+								<div class="input-group">
+									<span class="input-group-addon" id="contact-subject"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="contact-subject" placeholder="Why are you contacting me today?" aria-label="Email subject line" />
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="contact-body">Email body</label>
+								<div class="input-group">
+								<textarea class="form-control"  id="contact-body" name="contact-body" rows=6 placeholder="What's on your mind? (4000 characters max)" aria-label="Email body"></textarea>
+								</div>
+							</div>
+						</form>
+
+						<!--empty area for form error/success output-->
+						<div class="row">
+							<div class="col-xs-12">
+								<div id="output-area"></div>
+							</div>
 						</div>
 
-						<label for="contact-email">Your email</label>
-						<div class="input-group">
-							<span class="input-group-addon" id="contact-email"><i class="fa fa-envelope" aria-hidden="true"></i></span>
-							<input type="text" class="form-control" name="email" placeholder="Where can I reach you?"
-									 aria-label="Your
-							email
-						address" />
-						</div>
-
-						<label for="contact-subject">Email subject</label>
-						<div class="input-group">
-							<span class="input-group-addon" id="contact-subject"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span>
-							<input type="text" class="form-control" name="subject" placeholder="Why are you contacting me
-							today?"
-									 aria-label="Email
-						subject line" />
-						</div>
-
-						<label for="contact-body">Email body</label>
-						<div class="input-group">
-						<textarea class="form-control"  id="contact-body" name="body" rows=6 placeholder="What's on your mind? (4000 characters max)" aria-label="Email body"></textarea>
-						</div>
-
-						<button class="btn btn-primary" type="submit">Submit</button>
 					</div>
 				</div>
 			</div>
