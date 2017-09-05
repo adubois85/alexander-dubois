@@ -22,40 +22,40 @@
 	<body>
 <!--		 This is the main section; it acts as a navigation hub for the other sections -->
 		<section class="section-main">
-			<div class="container">
-				<div class="row justify-content-center">
-					<i class="fa fa-caret-up border" id="slideout-up-on"></i>
+			<div class="container text-center">
+				<div class="row">
+					<i class="fa fa-caret-up border" data-toggle="modal" data-target="#modal-about-me" id="modal-up-toggle"></i>
 				</div>
-				<div class="row justify-content-center">
-					<i class="fa fa-caret-left border" id="slideout-left-on"></i>
+				<div class="row">
+					<i class="fa fa-caret-left border" data-toggle="modal" data-target="#modal-resume" id="modal-left-toggle"></i>
 					<p class="border col-xs-3">This is my webpage.  Click on the arrows to navigate.</p>
-					<i class="fa fa-caret-right border" id="slideout-right-on"></i>
+					<i class="fa fa-caret-right border" data-toggle="modal" data-target="#modal-projects" id="modal-right-toggle"></i>
 				</div>
-				<div class="row justify-content-center">
-					<i class="fa fa-caret-down border" id="slideout-down-on"></i>
+				<div class="row">
+					<i class="fa fa-caret-down border" data-toggle="modal" data-target="#modal-contact" id="modal-down-toggle"></i>
 				</div>
 			</div>
 		</section>
 
-		<!--  Code for sliding panels based on example at:
-				https://codepen.io/exitfish/pen/BydsE
-		 		by Matthew Podsiad -->
-
 		<!-- This section is a short autobiographical blurb -->
 		<section class="section-about-me">
-			<div class="container" id="slideout-about-me">
-				<p>
-					We're acquainted with the wormhole phenomenon, but this... Is a remarkable piece of bio-electronic engineering by which I see much of the EM spectrum ranging from heat and infrared through radio waves, et cetera, and forgive me if I've said and listened to this a thousand times. This planet's interior heat provides an abundance of geothermal energy. We need to neutralize the homing signal.
-				</p>
-				<p>
-					Now what are the possibilities of warp drive? Cmdr Riker's nervous system has been invaded by an unknown microorganism. The organisms fuse to the nerve, intertwining at the molecular level. That's why the transporter's biofilters couldn't extract it. The vertex waves show a K-complex corresponding to an REM state. The engineering section's critical. Destruction is imminent. Their robes contain ultritium, highly explosive, virtually undetectable by your transporter.
-				</p>
+			<div class="modal fade" id="modal-about-me" tabindex="-1" role="dialog" aria-labelledby="About Me">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<p>
+							We're acquainted with the wormhole phenomenon, but this... Is a remarkable piece of bio-electronic engineering by which I see much of the EM spectrum ranging from heat and infrared through radio waves, et cetera, and forgive me if I've said and listened to this a thousand times. This planet's interior heat provides an abundance of geothermal energy. We need to neutralize the homing signal.
+						</p>
+						<p>
+							Now what are the possibilities of warp drive? Cmdr Riker's nervous system has been invaded by an unknown microorganism. The organisms fuse to the nerve, intertwining at the molecular level. That's why the transporter's biofilters couldn't extract it. The vertex waves show a K-complex corresponding to an REM state. The engineering section's critical. Destruction is imminent. Their robes contain ultritium, highly explosive, virtually undetectable by your transporter.
+						</p>
+					</div>
+				</div>
 			</div>
 		</section>
 
 		<!-- This section is a showcase of other projects I've worked on -->
 		<section class="section-projects">
-			<div class="container-fluid" id="slideout-projects">
+			<div class="container-fluid" id="modal-projects">
 				<div class="row project1">
 					<a href="#"><img src="https://www.fillmurray.com/300/300" alt="foodquisition" class="img-fluid float-left
 					rounded col-xs-3" /></a>
@@ -81,7 +81,7 @@
 
 		<!-- This section is for my resumé -->
 		<section class="section-resume">
-			<div class="container" id="slideout-resume">
+			<div class="container" id="modal-resume">
 				<div class="resume-title">
 					<div class="row justify-content-center">
 						<p class="col-xs-12"><em>Alexander DuBois</em></p>
@@ -164,7 +164,7 @@
 
 		<!-- This section is a secured form for contacting me -->
 		<section class="section-contact-form">
-			<div class="container" id="slideout-contact-form">
+			<div class="container" id="modal-contact">
 				<label for="contact-name">Your name</label>
 				<div class="input-group input-group-lg">
 					<span class="input-group-addon" id="contact-name"><i class="fa fa-user" aria-hidden="true"></i></span>
@@ -187,20 +187,17 @@
 
 				<label for="contact-body">Email body</label>
 				<div class="input-group">
-				<textarea class="form-control"  id="contact-body" rows=6 placeholder="What's on your mind? (4000 characters max)"
-							 aria-label="Email body"></textarea>
+				<textarea class="form-control"  id="contact-body" rows=6 placeholder="What's on your mind? (4000 characters max)" aria-label="Email body"></textarea>
 				</div>
 
 				<button class="btn btn-primary" type="submit">Submit</button>
 			</div>
 		</section>
 
-
-
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<!-- My JavaScript file -->
 		<script src="scripts/script.js"></script>
 	</body>
