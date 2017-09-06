@@ -10,12 +10,16 @@ img {
 	padding: 2em;
 }
 
+h4 {
+	font-size: 50px;
+}
+
 /*.modal {*/
 	/*color: #000;*/
 /*}*/
 
 .modal-content {
-	background-color: rgba(45, 45, 45, .85);
+	background-color: rgba(45, 45, 45, 1);
 }
 
 .fa-caret-up, .fa-caret-right, .fa-caret-down, .fa-caret-left {
@@ -36,6 +40,24 @@ img {
 	padding-bottom: 1rem;
 }
 
+.modal-header {
+	border-bottom: none;
+	margin-left: -5rem;
+	margin-right: -2rem;
+}
+.modal-title {
+	margin-top: 1rem;
+}
+
+.close {
+	display: block;
+	font-size: 10rem;
+}
+
+.modal-header .close {
+	margin-top: -15px;
+}
+
 .g-recaptcha {
 	padding: 2rem 0;
 }
@@ -48,6 +70,7 @@ img {
 	display: flex;
 	align-items: center;
 }
+
 
 /*.border {*/
 	/*border: 1px solid white;*/

@@ -205,6 +205,10 @@
 			<div class="modal fade" id="modal-contact" tabindex="-1" role="dialog" aria-labelledby="Contact Form">
 				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content container-fluid">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title text-center">Contact Me</h4>
+						</div>
 						<form id="contact-form" action="php/mailer.php" method="post">
 
 							<div class="form-group">
