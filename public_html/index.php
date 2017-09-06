@@ -45,10 +45,10 @@
 				<div class="row">
 					<i class="fa fa-caret-up border" data-toggle="modal" data-target="#modal-about-me" id="modal-up-toggle"></i>
 				</div>
-				<div class="row">
-					<i class="fa fa-caret-left border" data-toggle="modal" data-target="#modal-resume" id="modal-left-toggle"></i>
-					<p class="border col-xs-3">This is my webpage.  Click on the arrows to navigate.</p>
-					<i class="fa fa-caret-right border" data-toggle="modal" data-target="#modal-projects" id="modal-right-toggle"></i>
+				<div class="row border" id="middle-navigation">
+					<i class="fa fa-caret-left border col-xs-4" data-toggle="modal" data-target="#modal-resume" id="modal-left-toggle"></i>
+					<p class="border col-xs-4">This is my webpage.  Click on the arrows to navigate.</p>
+					<i class="fa fa-caret-right border col-xs-4" data-toggle="modal" data-target="#modal-projects" id="modal-right-toggle"></i>
 				</div>
 				<div class="row">
 					<i class="fa fa-caret-down border" data-toggle="modal" data-target="#modal-contact" id="modal-down-toggle"></i>
