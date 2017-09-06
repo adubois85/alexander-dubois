@@ -6,6 +6,18 @@ body {
 	display: flex;
 }
 
+img {
+	padding: 2em;
+}
+
+/*.modal {*/
+	/*color: #000;*/
+/*}*/
+
+.modal-content {
+	background-color: rgba(0, 0, 0, .85);
+}
+
 .fa-caret-up, .fa-caret-right, .fa-caret-down, .fa-caret-left {
 	font-size: 10em;
 	color: #E1E1E1;
@@ -18,12 +30,8 @@ body {
 	transition: color 0.25s ease-out;
 }
 
-.modal {
-	color: #000;
-}
-
-img {
-	padding: 2em;
+.fa-twitter-square, .fa-github-square, .fa-linkedin-square {
+	font-size: 5rem;
 }
 
 #middle-navigation {
