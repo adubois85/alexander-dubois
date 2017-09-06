@@ -47,7 +47,7 @@
 				</div>
 				<div class="row border" id="middle-navigation">
 					<i class="fa fa-caret-left border col-xs-4" data-toggle="modal" data-target="#modal-resume" id="modal-left-toggle"></i>
-					<p class="border col-xs-4">This is my webpage.  Click on the arrows to navigate.</p>
+					<p class="border col-xs-4">Thank you for visiting my webpage.  Click on the arrows to navigate.</p>
 					<i class="fa fa-caret-right border col-xs-4" data-toggle="modal" data-target="#modal-projects" id="modal-right-toggle"></i>
 				</div>
 				<div class="row">
@@ -66,10 +66,14 @@
 							<h4 class="modal-title text-center">About Me</h4>
 						</div>
 						<p>
-							We're acquainted with the wormhole phenomenon, but this... Is a remarkable piece of bio-electronic engineering by which I see much of the EM spectrum ranging from heat and infrared through radio waves, et cetera, and forgive me if I've said and listened to this a thousand times. This planet's interior heat provides an abundance of geothermal energy. We need to neutralize the homing signal.
+							Greetings, my name is Alexander DuBois.  I am a web developer first and foremost, but I am in the constant process of learning new languages, frameworks, and technologies.  My work consists primaraly of PHP, with a smattering of mySQL, javasrcipt, HTML, and CSS.
 						</p>
 						<p>
-							Now what are the possibilities of warp drive? Cmdr Riker's nervous system has been invaded by an unknown microorganism. The organisms fuse to the nerve, intertwining at the molecular level. That's why the transporter's biofilters couldn't extract it. The vertex waves show a K-complex corresponding to an REM state. The engineering section's critical. Destruction is imminent. Their robes contain ultritium, highly explosive, virtually undetectable by your transporter.
+							So why change careers now?  Well, after so many years of working odd-jobs, I knew I needed a fresh start.  I knew I needed something that would actually challenge my capabilities.  And so I went back to school to learn how to code.  The only thing I know now is that I don't really know much of anything at all.
+						</p>
+						<p>Within the realm of programming, I am interested in GIS software and using programming to transform and analyze large datasets.  I am also interested in creating video games and the many disciplines that are necessary to succeed in that field.</p>
+						<p>
+							Outside of programming, my interests include video games of all kinds, photography, and green chile.  Below you will find links to my GitHub profile, as well as my social media presence.
 						</p>
 						<div class="container-fluid col-xs-offset-1">
 							<div class="col-xs-4">
