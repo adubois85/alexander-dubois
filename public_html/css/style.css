@@ -36,6 +36,14 @@ img {
 	padding-bottom: 1rem;
 }
 
+.g-recaptcha {
+	padding: 2rem 0;
+}
+
+#output-area {
+	margin-bottom: 2rem;
+}
+
 #middle-navigation {
 	display: flex;
 	align-items: center;
