@@ -61,6 +61,10 @@
 			<div class="modal fade" id="modal-about-me" tabindex="-1" role="dialog" aria-labelledby="About Me">
 				<div class="modal-dialog" role="document">
 					<div class="modal-content container-fluid">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title text-center">About Me</h4>
+						</div>
 						<p>
 							We're acquainted with the wormhole phenomenon, but this... Is a remarkable piece of bio-electronic engineering by which I see much of the EM spectrum ranging from heat and infrared through radio waves, et cetera, and forgive me if I've said and listened to this a thousand times. This planet's interior heat provides an abundance of geothermal energy. We need to neutralize the homing signal.
 						</p>
@@ -89,6 +93,10 @@
 			<div class="modal fade" id="modal-projects" tabindex="-1" role="dialog" aria-labelledby="Other Projects">
 				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content container-fluid">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title text-center">Other Projects</h4>
+						</div>
 						<div class="row project1">
 							<a href="#"><img src="https://www.fillmurray.com/300/300" alt="foodquisition" class="img-responsive img-rounded col-md-3" /></a>
 							<h5>Foodquisition</h5>
@@ -117,6 +125,10 @@
 			<div class="modal fade" id="modal-resume" tabindex="-1" role="dialog" aria-labelledby="Resumé">
 				<div class="modal-dialog" role="document">
 					<div class="modal-content container-fluid">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title text-center">My Resumé</h4>
+						</div>
 
 						<div class="resume-title">
 							<div class="row">

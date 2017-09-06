@@ -52,6 +52,8 @@ h4 {
 .close {
 	display: block;
 	font-size: 10rem;
+	color: crimson;
+	opacity: .5;
 }
 
 .modal-header .close {
