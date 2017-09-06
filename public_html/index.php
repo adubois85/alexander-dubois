@@ -98,7 +98,7 @@
 							<h4 class="modal-title text-center">Other Projects</h4>
 						</div>
 						<div class="row project1">
-							<a href="https://github.com/adubois85/foodquisition" target="_blank"><img src="/public_html/images/foodquisition.jpeg" alt="foodquisition" class="img-responsive img-rounded col-md-3" /></a>
+							<a href="https://github.com/adubois85/foodquisition" target="_blank"><img src="../public_html/images/foodquisition.jpeg" alt="foodquisition" class="img-responsive img-rounded col-md-3" /></a>
 							<h5>Foodquisition</h5>
 							<p>
 								Have you ever wondered how well the restaurant you're eating at scored on its health inspection?
@@ -107,7 +107,7 @@
 							</p>
 						</div>
 						<div class="row project2">
-							<a href="https://github.com/adubois85/math-2/" target="_blank"><img src="/public_html/images/math2.jpeg" alt="math 2" class="img-responsive img-rounded col-md-3"/></a>
+							<a href="https://github.com/adubois85/math-2/" target="_blank"><img src="../public_html/images/math2.jpeg" alt="math 2" class="img-responsive img-rounded col-md-3"/></a>
 							<h5 class="float-right">Math 2</h5>
 							<p>
 								What would happen if all of our programming language's math functions broke except the basic add, subtract, multiply, and divide.  With this project, I attempt to rebuild a number of the more complex math functions using only those basic math operators and a few other tricks provided by the core language.
