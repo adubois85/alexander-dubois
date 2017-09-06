@@ -138,13 +138,13 @@
 								<p class="col-xs-12 text-center"><em>Albuquerque, New Mexico 87114</em> -- Willing to
 									relocate</p>
 							</div>
-							<div class="row">
-								<p class="col-xs-12 col-md-3 col-md-offset-3 text-center"><em>(760) 793-3972</em></p>
-								<p class="col-xs-12 col-md-2 text-left"><em>adubois@alumni.uci.edu</em></p>
+							<div class="row col-sm-offset-2">
+								<p class="col-sm-4 text-right"><em>(760) 793-3972</em></p>
+								<p class="col-sm-4 text-left"><em>adubois@alumni.uci.edu</em></p>
 							</div>
-							<div class="row">
-								<p class="col-xs-12 col-md-3 text-center">GitHub--<em>adubois85</em></p>
-								<p class="col-xs-12 col-md-3 text-center">LinkedIn--<em>/in/dubious</em></p>
+							<div class="row col-sm-offset-2">
+								<p class="col-sm-4 text-right">GitHub--<em>adubois85</em></p>
+								<p class="col-sm-4 text-left">LinkedIn--<em>/in/dubious</em></p>
 							</div>
 						</div>
 
