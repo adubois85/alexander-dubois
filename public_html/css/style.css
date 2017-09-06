@@ -15,7 +15,7 @@ img {
 /*}*/
 
 .modal-content {
-	background-color: rgba(0, 0, 0, .85);
+	background-color: rgba(45, 45, 45, .85);
 }
 
 .fa-caret-up, .fa-caret-right, .fa-caret-down, .fa-caret-left {
@@ -32,6 +32,8 @@ img {
 
 .fa-twitter-square, .fa-github-square, .fa-linkedin-square {
 	font-size: 5rem;
+	align-items: center;
+	padding-bottom: 1rem;
 }
 
 #middle-navigation {

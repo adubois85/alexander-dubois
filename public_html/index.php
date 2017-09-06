@@ -67,9 +67,18 @@
 						<p>
 							Now what are the possibilities of warp drive? Cmdr Riker's nervous system has been invaded by an unknown microorganism. The organisms fuse to the nerve, intertwining at the molecular level. That's why the transporter's biofilters couldn't extract it. The vertex waves show a K-complex corresponding to an REM state. The engineering section's critical. Destruction is imminent. Their robes contain ultritium, highly explosive, virtually undetectable by your transporter.
 						</p>
-						<a href="https://twitter.com/amdubious" target="_blank"><i class="fa fa-twitter-square"></i></a>
-						<a href="https://github.com/adubois85/" target="_blank"><i class="fa fa-github-square"></i></a>
-						<a href="https://www.linkedin.com/in/dubious/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+						<div class="container-fluid col-xs-offset-1">
+							<div class="col-xs-4">
+								<a href="https://twitter.com/amdubious" target="_blank"><i class="fa fa-twitter-square"></i></a>
+							</div>
+							<div class="col-xs-4">
+								<a href="https://github.com/adubois85/" target="_blank"><i class="fa fa-github-square"></i></a>
+							</div>
+							<div class="col-xs-4">
+								<a href="https://www.linkedin.com/in/dubious/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</div>
